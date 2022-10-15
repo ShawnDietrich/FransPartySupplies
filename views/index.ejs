@@ -32,20 +32,20 @@
 
  <!--Event Pictures-->
   <div class="row eventRow" style="margin: 10em auto;">
-      <div class="col-auto animate__animated animate__backInLeft" >
+      <div class="col-auto " data-aos="fade-right" data-aos-duration="1000">
         <img src="/images/event1.jpg" alt="" class="eventPics">
       </div>
-      <div class="col-auto animate__animated animate__backInUp">
+      <div class="col-auto " data-aos="fade-down" data-aos-duration="1000">
         <img src="/images/event2.jpg" alt="" class="eventPics">
       </div>
-      <div class="col-auto animate__animated animate__backInRight">
+      <div class="col-auto" data-aos="fade-left" data-aos-duration="1000">
         <img src="/images/event3.jpg" alt="" class="eventPics">
       </div>
 
   </div>
 
 <!--Services-->
-<div class="serviceContainer" style="width: 90%; margin: 10em auto;">
+<div class="serviceContainer" data-aos="zoom-in" data-aos-duration="1000"style="width: 90%; margin: 10em auto;">
   <div class="row serviceRow">
     
     <div class="col-auto">
@@ -100,3 +100,7 @@
   </div>
   </div>
 <%- include('../partials/footer') %>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
