@@ -3,6 +3,7 @@
 <footer class="site-footer">
     <div class="container">
         <h2 class="footer-text">Contact Fran For All Your Event / Party Needs</h2>
+        <p class="cancel-text">Note: A cancellation policy is applied with all bookings </p>
     </div>
     <div class="container">
         <div class="booking" style="margin: 0 auto">
@@ -20,20 +21,35 @@
 
                 <div class="row gx-2">
                     <div class="col">
-                        <label for="date" class="form-label">Expected Date</label>
-                        <input id="date" class="form-control mb-3" type="date" name="expDate" required>
+                        <label for="date" class="form-label">Event Date</label>
+                        <input id="date" class="form-control mb-3" type="date" name="expDate">
                     </div>
                 </div>
+                <div class="row gx-2">
+                    <div class="col">
+                        <label for="address" class="form-label">Event address</label>
+                        <input id="address" class="form-control mb-3" type="address" name="address">
+                    </div>
+                </div>
+                
     
                <div class="row gx-2">
                     <div class="col">
                         <label for="email" class="form-label">Email Address*</label>
                         <input id="email" class="form-control mb-3" type="email" name="email" required>
-
-                        <button type="submit" class="btn btn-outline-primary mb-2">
+                    </div>
+                </div>
+                <div class="row gx-2">
+                    <div class="col">
+                        <label for="notes" class="form-label">Message Notes:</label>
+                        <textarea id="notes" class="form-control mb-3" type="testarea" name="notes"></textarea>
+                        <button type="submit" class="btn btn-secondary mb-2">
                             Submit Booking Information
                         </button>
                     </div>
+                </div>
+                        
+                    
                 </div>
             </form>
         </div>
