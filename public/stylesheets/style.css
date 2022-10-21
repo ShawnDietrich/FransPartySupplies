@@ -74,7 +74,7 @@ body {
 .eventRow {
   justify-content: space-between;
 }
-.eventPics {
+.eventPics { 
   width: 30em;
   height: 40em;
   border-radius: 1em;
