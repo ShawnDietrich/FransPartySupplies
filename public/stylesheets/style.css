@@ -47,16 +47,22 @@ body {
 
 .footer-text {
   position: absolute;
-  top: 30px;
+  top: 20px;
   left: 30px;
   font: 2em Georgia, 'Times New Roman', Times, serif;
 }
 
+.serving-text {
+  position: absolute;
+  top: 65px;
+  left: 30px;
+  font: 15pt Georgia, 'Times New Roman', Times, serif;
+}
 .cancel-text {
   position: absolute;
-  top: 90px;
+  top: 100px;
   left: 30px;
-  font: 10pt Georgia, 'Times New Roman', Times, serif;
+  font: 15pt Georgia, 'Times New Roman', Times, serif;
 }
 .booking {
   margin: 0 auto;
