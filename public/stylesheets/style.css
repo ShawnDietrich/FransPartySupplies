@@ -45,25 +45,23 @@ body {
   
 }
 
-.footer-text {
-  position: absolute;
-  top: 20px;
-  left: 30px;
-  font: 2em Georgia, 'Times New Roman', Times, serif;
+.footer-title {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  font: 50px Georgia, 'Times New Roman', Times, serif;
 }
 
-.serving-text {
-  position: absolute;
-  top: 65px;
-  left: 30px;
-  font: 15pt Georgia, 'Times New Roman', Times, serif;
+.footer-text {
+  text-align: center;
+  font: 20px Georgia, 'Times New Roman', Times, serif;
+  padding-top: 1em;
 }
-.cancel-text {
-  position: absolute;
-  top: 100px;
-  left: 30px;
-  font: 15pt Georgia, 'Times New Roman', Times, serif;
+.footer-book-text {
+  text-align: center;
+  font: 30px Georgia, 'Times New Roman', Times, serif;
 }
+
 .booking {
   margin: 0 auto;
   padding-top: 140px;
@@ -137,7 +135,13 @@ body {
     justify-content: center !important;
   }
   .footer-text {
-    font-size: 18pt;
+    font-size: 15px;
+  }
+  .footer-title {
+    font-size: 35px;
+  }
+  .footer-book-text {
+    font-size: 15px !important;
   }
   .card-img-db{
     height: 40vw;
